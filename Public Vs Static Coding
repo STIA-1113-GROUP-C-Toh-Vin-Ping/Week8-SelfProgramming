@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class PublicVsStatic {
+	static void myStaticMethod() {
+	    System.out.println("Static methods can be called without creating objects");
+	}
+	 public void myPublicMethod() {
+		    System.out.println("Public methods must be called by creating objects");
+		  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		myStaticMethod(); // Call the static method
+	    // myPublicMethod(); This would compile an error
+
+		PublicVsStatic a = new PublicVsStatic(); // public要import所以要放classname 和 一个object(obj=a) 然后在object.public void要的东西
+	    a.myPublicMethod(); // Call the public method on the object
+	  }
+	}
