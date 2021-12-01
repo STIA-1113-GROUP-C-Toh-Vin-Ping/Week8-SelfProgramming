@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class Class2 {
+int x = 10;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Class2 a = new Class2();
+		Class2 b = new Class2();
+		b.x =30;
+		System.out.println(a.x);
+		System.out.println(b.x);
+		
+	}
+
+}
