@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class Class {
+int x=5;// or int x;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Class a = new Class();
+		//a.x=25
+		System.out.println(a.x);//print 25
+	}
+
+}
