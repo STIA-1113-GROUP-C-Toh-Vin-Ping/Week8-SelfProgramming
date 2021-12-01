@@ -1,0 +1,4 @@
+Hello
+25
+Public methods must be called by creating objects
+Static methods can be called without creating objects
