@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class CsParameter2 {
+	int modelYear;
+	  String modelName;
+
+	  public CsParameter2(int year, String name) {
+	    modelYear = year;
+	    modelName = name;
+	  }
+
+	  public static void main(String[] args) {
+		  CsParameter2 myCar = new CsParameter2(1969, "Mustang");
+	    System.out.println(myCar.modelYear + " " + myCar.modelName);
+	  }
+	}
