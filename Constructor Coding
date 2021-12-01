@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class Constructor {
+int x;
+
+public void cde() {//只需要打这个class的name ( Constructor obj = new Constructor() )
+									           //obj.你要的 void就可以了 无论是那个class的static void还是public void
+	x=25;
+	System.out.println(x);
+}
+static void abc(){
+	System.out.println("Hello");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		abc();
+		
+		Constructor a = new Constructor();
+		a.cde();
+		
+		PublicVsStatic b = new PublicVsStatic();
+		b.myPublicMethod();//public的
+		b.myStaticMethod();// static也可以弄过来
+		
+	}
+
+}
