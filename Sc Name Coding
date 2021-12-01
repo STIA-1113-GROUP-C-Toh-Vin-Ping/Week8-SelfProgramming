@@ -7,9 +7,9 @@ public class ScName {
 		Scanner x = new Scanner (System.in);
 		  Name a = new Name();//Name 是class 然后a是for代表 Name的class这样子 然后可以连去其他class这样子 我这边有import到 所以就不用重新打variable
 		  System.out.println("Please enter ur first name:");
-		  a.fname = x.next();
+		  a.fname = x.nextLine();
 		  System.out.println("Please enter ur second name:");
-		  a.sname = x.next();
+		  a.sname = x.nextLine();
 		  System.out.println("Please enter ur age:");
 		  a.age = x.nextInt();
 		    System.out.println("Name: " + a.fname + " " + a.sname);
