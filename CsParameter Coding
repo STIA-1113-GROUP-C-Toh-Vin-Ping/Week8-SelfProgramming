@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class CsParameter {
+int x;
+
+public CsParameter(int y) {
+	x=y;
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CsParameter a = new CsParameter(5);
+		    System.out.println(a.x);
+	}
+
+}
