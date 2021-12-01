@@ -1,0 +1,14 @@
+package selfProgramming;
+
+public class Name {
+	  String fname = "Toh";
+	  String sname = "Vin Ping";
+	  int age = 20;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Name a = new Name();
+		    System.out.println("Name: " + a.fname + " " + a.sname);
+		    System.out.println("Age: " + a.age);
+	}
+
+}
